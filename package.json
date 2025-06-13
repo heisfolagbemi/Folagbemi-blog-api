@@ -2,7 +2,7 @@
   "name": "examination-blog-api",
   "version": "1.0.0",
   "description": "This project is full-featured blog application built to practice and demonstrate web development skills. it allows users to creat, read, update, and delete blog post(CRUD functionality).",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "test": "tests"
   },
