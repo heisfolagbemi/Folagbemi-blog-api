@@ -8,6 +8,10 @@ dotenv.config();
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Backend API is running 🚀");
+});
+
 app.use(express.json());
 
 app.use('/api', authRoutes);
@@ -15,3 +19,5 @@ app.use('/api', blogRoutes);
 
 module.exports = app;
 
+
+  
